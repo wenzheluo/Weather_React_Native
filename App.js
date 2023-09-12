@@ -83,8 +83,8 @@ export default function App() {
     }
   }
 
-  function selectBackgroundImage(weatherCode) {
-    const interpretation = getWeatherInterpretation(weatherCode);
+  async function selectBackgroundImage(weatherCode) {
+    const interpretation = await getWeatherInterpretation(weatherCode);
 
     switch (interpretation.label) {
       case "Sunny":
