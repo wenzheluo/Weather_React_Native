@@ -1,5 +1,15 @@
 {
   "expo": {
+
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    
     "name": "react-native-weather",
     "slug": "react-native-weather",
     "version": "1.0.0",
